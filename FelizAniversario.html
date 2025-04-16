@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Cartinha para Cuca 🎀</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #fff0f5;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      overflow: hidden;
+    }
+
+    #botaoContainer {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 10;
+      text-align: center;
+      transition: opacity 1s ease;
+    }
+
+    #botaoFofo {
+      padding: 20px 40px;
+      background-color: #ffb6c1;
+      border: none;
+      border-radius: 30px;
+      color: white;
+      font-size: 24px;
+      cursor: pointer;
+      box-shadow: 0 0 15px rgba(255, 105, 180, 0.7);
+      transition: transform 0.3s ease;
+    }
+
+    #botaoFofo:hover {
+      transform: scale(1.1);
+    }
+
+    #cartaContainer {
+      display: none;
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 40px;
+      background-color: #fff;
+      border-radius: 20px;
+      border: 4px dashed #ffb6c1;
+      box-shadow: 0 0 20px rgba(255, 182, 193, 0.4);
+      color: #ff69b4;
+      overflow-y: auto;
+      max-height: 90vh;
+    }
+
+    h1, h2 {
+      text-align: center;
+    }
+
+    .assinatura {
+      margin-top: 40px;
+      text-align: right;
+      font-style: italic;
+    }
+
+    .galeria-fofa {
+      margin-top: 40px;
+      padding: 20px;
+      background: #ffeaf5;
+      border: 2px dashed #ffaad4;
+      border-radius: 20px;
+      text-align: center;
+    }
+
+    .fotos-galeria {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .fotos-galeria img {
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 20px;
+      border: 3px solid #ffc1e3;
+      box-shadow: 0 4px 12px rgba(255, 192, 203, 0.3);
+      transition: transform 0.3s ease;
+    }
+
+    .fotos-galeria img:hover {
+      transform: scale(1.05);
+    }
+
+    .imagem-final {
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .imagem-final img {
+      max-width: 100%;
+      border-radius: 20px;
+      border: 4px solid #ffb6c1;
+      box-shadow: 0 4px 12px rgba(255, 182, 193, 0.5);
+    }
+
+    iframe {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Música da Hello Kitty (YouTube Embed com autoplay) -->
+  <iframe width="0" height="0" src="https://www.youtube.com/embed/ZP2aUaiyDq4?autoplay=1&loop=1&playlist=ZP2aUaiyDq4" frameborder="0" allow="autoplay"></iframe>
+
+  <!-- Botão Centralizado -->
+  <div id="botaoContainer">
+    <button id="botaoFofo">Clique aqui, Cuca 💖</button>
+  </div>
+
+  <!-- Carta Fofa -->
+  <div id="cartaContainer">
+    <h1>Minha querida Cuca,</h1>
+    
+    <p>Hoje é o seu aniversário, e é quase impossível colocar em palavras tudo o que eu sinto por você. Mas vou tentar, porque você merece o mundo — e mais um pouquinho.</p>
+    <p>Desde que você entrou na minha vida, tudo ficou mais colorido, mais engraçado, mais cheio de sentido. Você é daquelas pessoas que têm o dom de transformar o ordinário em algo mágico. Quando estou com você, até os silêncios têm valor, e até os dias ruins encontram algum brilho.</p>
+    <p>Você é minha confidente, meu porto seguro, a pessoa com quem eu sei que posso contar sempre, em qualquer situação. Com você, eu nunca me sinto sozinha. Você me acolhe sem julgamento, me entende sem que eu precise explicar, e me apoia até quando eu mesma duvido de mim.</p>
+    <p>Eu admiro tanto a sua força, sua coragem, sua maneira única de ver o mundo. Você tem uma luz que não dá pra fingir que não existe — ela simplesmente brilha, mesmo nos momentos mais escuros. Você é gentil com quem merece e firme com quem precisa. Tem um coração gigante e uma risada que faz qualquer um sorrir junto. É intensa, verdadeira, e extraordinária em cada detalhe.</p>
+    <p>Hoje, mais do que comemorar mais um ano da sua vida, eu quero celebrar quem você é. Quero te lembrar do quanto você é importante pra mim e pra todos que têm o privilégio de te conhecer. O mundo é infinitamente melhor com você nele, e eu sou infinitamente melhor com você ao meu lado.</p>
+    <p>Se eu pudesse, te daria um abraço que apagasse todas as suas dúvidas, te cobrisse de paz e fizesse você sentir todo amor que eu sinto por você. Mas como ainda não inventaram o teletransporte por carta, deixo aqui minhas palavras como abraço. Imensas, quentinhas, cheias de amor.</p>
+    <p>Obrigada por existir, por ser exatamente quem você é, por ser minha melhor amiga. Que neste novo ciclo você se sinta cada vez mais viva, mais leve, mais feliz. Que você nunca perca essa essência linda que te faz ser tão especial. Que o universo continue conspirando a seu favor, porque você merece tudo de melhor — e ainda mais.</p>
+    <p>Te amo com todas as letras, com todos os sentimentos, com todos os dias que já vivi e com todos os que ainda virão. Sempre, sempre estarei aqui por você.</p>
+    
+
+    <p>
+      Desejo que seus dias sejam leves, que as pessoas ao seu redor reconheçam o tesouro que você é, e que nunca te falte amor, carinho e paz. Você merece tudo de mais lindo nesse mundo, Cuca. 🌸
+    </p>
+
+    <p class="assinatura">
+      Feliz aniversário, minha Cuca.<br>
+      Que a vida te abrace tão forte quanto eu queria te abraçar agora.<br><br>
+      Com todo o meu amor,<br>
+      Rachiel &lt;3
+    </p>
+
+    <div class="galeria-fofa">
+      <h2>Fotos especiais 💕</h2>
+      <div class="fotos-galeria">
+        <img src="Melody.png" alt="My Melody fofinha">
+        <img src="Cuca.jpg" alt="Cuca">
+        <img src="Rachiel.jpg" alt="Rachiel">
+        <img src="Namorido.jpg" alt="Namorido">
+      </div>
+    </div>
+
+    <div class="imagem-final">
+      <img src="Amizade.jpg" alt="Foto especial com a Cuca">
+    </div>
+  </div>
+
+  <script>
+    const botao = document.getElementById('botaoFofo');
+    const containerBotao = document.getElementById('botaoContainer');
+    const carta = document.getElementById('cartaContainer');
+
+    botao.addEventListener('click', () => {
+      containerBotao.style.opacity = '0';
+      setTimeout(() => {
+        containerBotao.style.display = 'none';
+        carta.style.display = 'block';
+        document.body.style.overflow = 'auto';
+      }, 1000);
+    });
+  </script>
+</body>
+</html>
